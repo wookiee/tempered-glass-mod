@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "tempered_glass:tempered_glass_rod"
+    },
+    "1": {
+      "item": "tempered_glass:tempered_glass"
+    },
+    "2": {
+      "item": "tempered_glass:tempered_glass_rod"
+    },
+    "3": {
+      "item": "tempered_glass:tempered_glass_rod"
+    },
+    "4": {
+      "item": "tempered_glass:tempered_glass"
+    },
+    "5": {
+      "item": "tempered_glass:tempered_glass_rod"
+    }
+  },
+  "result": {
+    "item": "tempered_glass:tempered_glass_fence_gate",
+    "count": 1
+  }
+}

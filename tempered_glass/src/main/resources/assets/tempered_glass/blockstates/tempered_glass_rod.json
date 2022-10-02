@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "tempered_glass:block/tempered_glass_rod",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "tempered_glass:block/tempered_glass_rod",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "tempered_glass:block/tempered_glass_rod",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "tempered_glass:block/tempered_glass_rod",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "tempered_glass:block/tempered_glass_rod"
+    },
+    "facing=west": {
+      "model": "tempered_glass:block/tempered_glass_rod",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

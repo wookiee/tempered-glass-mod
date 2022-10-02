@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_bottom",
+  "textures": {
+    "texture": "tempered_glass:blocks/temperedglassblock",
+    "particle": "tempered_glass:blocks/temperedglassblock"
+  }
+}

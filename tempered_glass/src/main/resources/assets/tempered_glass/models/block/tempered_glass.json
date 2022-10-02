@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tempered_glass:blocks/temperedglassblocktinted",
+    "particle": "tempered_glass:blocks/temperedglassblocktinted"
+  }
+}

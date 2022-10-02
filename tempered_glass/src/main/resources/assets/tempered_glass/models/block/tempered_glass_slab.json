@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "tempered_glass:blocks/temperedglassblocktinted",
+    "top": "tempered_glass:blocks/temperedglassblocktinted",
+    "side": "tempered_glass:blocks/temperedglassblocktinted"
+  }
+}

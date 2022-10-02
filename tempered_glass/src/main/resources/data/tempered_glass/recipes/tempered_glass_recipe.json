@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 10,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "minecraft:glass"
+  },
+  "result": "tempered_glass:tempered_glass"
+}

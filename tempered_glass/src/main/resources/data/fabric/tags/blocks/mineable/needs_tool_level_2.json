@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "tempered_glass:tempered_glass",
+    "tempered_glass:tempered_glass_slab",
+    "tempered_glass:tempered_glass_trapdoor",
+    "tempered_glass:tempered_glass_pane",
+    "tempered_glass:tempered_glass_fence",
+    "tempered_glass:tempered_glass_fence_gate",
+    "tempered_glass:tempered_glass_rod"
+  ]
+}

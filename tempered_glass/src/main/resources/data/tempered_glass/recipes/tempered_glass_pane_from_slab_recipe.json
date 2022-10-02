@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "tempered_glass:tempered_glass_slab"
+  },
+  "result": "tempered_glass:tempered_glass_pane"
+}

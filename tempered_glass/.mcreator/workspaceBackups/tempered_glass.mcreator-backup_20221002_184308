@@ -1,0 +1,216 @@
+{
+  "mod_elements": [
+    {
+      "name": "TemperedGlass",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass"
+    },
+    {
+      "name": "TemperedGlassRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_recipe"
+    },
+    {
+      "name": "TemperedGlassSlab",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_slab"
+    },
+    {
+      "name": "TemperedGlassTrapdoor",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_trapdoor"
+    },
+    {
+      "name": "TemperedGlassPane",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_pane"
+    },
+    {
+      "name": "TemperedGlassSlabRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_slab_recipe"
+    },
+    {
+      "name": "TemperedGlassPaneFromBlockRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_pane_from_block_recipe"
+    },
+    {
+      "name": "TemperedGlassPaneFromSlabRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_pane_from_slab_recipe"
+    },
+    {
+      "name": "TemperedGlassTrapdoorRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_trapdoor_recipe"
+    },
+    {
+      "name": "TemperedGlassFence",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_fence"
+    },
+    {
+      "name": "TemperedGlassFenceGate",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_fence_gate"
+    },
+    {
+      "name": "TemperedGlassRod",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_rod"
+    },
+    {
+      "name": "TemperedGlassRodRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_rod_recipe"
+    },
+    {
+      "name": "TemperedGlassFenceRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_fence_recipe"
+    },
+    {
+      "name": "TemperedGlassFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_fence_gate_recipe"
+    },
+    {
+      "name": "TemperedGlassFenceRecipe2",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_fence_recipe_2"
+    },
+    {
+      "name": "TemperedGlassFenceGateRecipe2",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_fence_gate_recipe_2"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks"
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fence_blocks"
+    },
+    {
+      "name": "WoodenFenceBlocks",
+      "type": "tag",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_fence_blocks"
+    },
+    {
+      "name": "WallBlocks",
+      "type": "tag",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_blocks"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.tempered_glass.tempered_glass_slab": "Tempered Glass Slab",
+      "block.tempered_glass.tempered_glass": "Tempered Glass",
+      "block.tempered_glass.tempered_glass_pane": "Tempered Glass Pane",
+      "block.tempered_glass.tempered_glass_fence": "Tempered Glass Fence",
+      "block.tempered_glass.tempered_glass_fence_gate": "Tempered Glass Fence Gate",
+      "block.tempered_glass.tempered_glass_rod": "Tempered Glass Rod",
+      "block.tempered_glass.tempered_glass_trapdoor": "Tempered Glass Trapdoor"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "tempered_glass",
+    "modName": "Tempered Glass",
+    "version": "1.0.0",
+    "author": "Mikey Ward",
+    "websiteURL": "https://mcreator.net",
+    "license": "Public Domain",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.temperedglass",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

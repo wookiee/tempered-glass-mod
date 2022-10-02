@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "tempered_glass:blocks/temperedglassblocktinted",
+    "particle": "tempered_glass:blocks/temperedglassblocktinted"
+  }
+}

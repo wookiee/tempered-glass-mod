@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tempered_glass:block/tempered_glass_slab"
+    },
+    "type=top": {
+      "model": "tempered_glass:block/tempered_glass_slab_top"
+    },
+    "type=double": {
+      "model": "tempered_glass:block/tempered_glass_slab_full"
+    }
+  }
+}

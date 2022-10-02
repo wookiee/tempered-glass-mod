@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "tempered_glass",
+  "version": "1.0.0",
+  "name": "Tempered Glass",
+  "authors": [
+    "Mikey Ward"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Public Domain",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.temperedglass.TemperedGlassMod"
+    ],
+    "client": [
+      "net.mcreator.temperedglass.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
