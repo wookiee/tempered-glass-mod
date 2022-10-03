@@ -2,16 +2,42 @@
   "_fv": 33,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Stone cutting",
+    "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 9,
+    "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
-    "stoneCuttingInputStack": {
-      "value": "CUSTOM:TemperedGlass"
-    },
-    "stoneCuttingReturnStack": {
+    "recipeSlots": [
+      {
+        "value": "Items.GLOWSTONE_DUST"
+      },
+      {
+        "value": "CUSTOM:TemperedGlassDowel"
+      },
+      {
+        "value": "Items.GLOWSTONE_DUST"
+      },
+      {
+        "value": "Items.GLOWSTONE_DUST"
+      },
+      {
+        "value": "CUSTOM:TemperedGlassDowel"
+      },
+      {
+        "value": "Items.GLOWSTONE_DUST"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TemperedGlassSlab"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
       "value": "CUSTOM:TemperedGlassRod"
     },
     "name": "tempered_glass_rod_recipe",

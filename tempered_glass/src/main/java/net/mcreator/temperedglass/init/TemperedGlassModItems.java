@@ -10,6 +10,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Registry;
 
+import net.mcreator.temperedglass.item.TemperedGlassDowelItem;
 import net.mcreator.temperedglass.TemperedGlassMod;
 
 public class TemperedGlassModItems {
@@ -20,6 +21,7 @@ public class TemperedGlassModItems {
 	public static Item TEMPERED_GLASS_FENCE;
 	public static Item TEMPERED_GLASS_FENCE_GATE;
 	public static Item TEMPERED_GLASS_ROD;
+	public static Item TEMPERED_GLASS_DOWEL;
 
 	public static void load() {
 		TEMPERED_GLASS = Registry.register(Registry.ITEM, new ResourceLocation(TemperedGlassMod.MODID, "tempered_glass"),
@@ -36,5 +38,7 @@ public class TemperedGlassModItems {
 				new BlockItem(TemperedGlassModBlocks.TEMPERED_GLASS_FENCE_GATE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
 		TEMPERED_GLASS_ROD = Registry.register(Registry.ITEM, new ResourceLocation(TemperedGlassMod.MODID, "tempered_glass_rod"),
 				new BlockItem(TemperedGlassModBlocks.TEMPERED_GLASS_ROD, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		TEMPERED_GLASS_DOWEL = Registry.register(Registry.ITEM, new ResourceLocation(TemperedGlassMod.MODID, "tempered_glass_dowel"),
+				new TemperedGlassDowelItem());
 	}
 }

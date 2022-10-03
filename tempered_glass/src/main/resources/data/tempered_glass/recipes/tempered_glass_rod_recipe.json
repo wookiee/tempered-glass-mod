@@ -1,8 +1,35 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 9,
-  "ingredient": {
-    "item": "tempered_glass:tempered_glass"
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "1": {
+      "item": "tempered_glass:tempered_glass_dowel"
+    },
+    "2": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "3": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "4": {
+      "item": "tempered_glass:tempered_glass_dowel"
+    },
+    "5": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "7": {
+      "item": "tempered_glass:tempered_glass_slab"
+    }
   },
-  "result": "tempered_glass:tempered_glass_rod"
+  "result": {
+    "item": "tempered_glass:tempered_glass_rod",
+    "count": 1
+  }
 }

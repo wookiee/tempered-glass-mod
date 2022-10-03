@@ -12,7 +12,7 @@
     "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -20,7 +20,7 @@
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
-    "connectedSides": true,
+    "connectedSides": false,
     "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
@@ -97,7 +97,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 14,
     "unbreakable": false,
     "breakHarvestLevel": 2,
     "spawnParticles": false,

@@ -1,6 +1,8 @@
 
 package net.mcreator.temperedglass.block;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
@@ -8,7 +10,6 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.EndRodBlock;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.RenderType;
 
@@ -24,13 +25,9 @@ import java.util.Collections;
 
 public class TemperedGlassRodBlock extends EndRodBlock {
 	public TemperedGlassRodBlock() {
-		super(FabricBlockSettings.of(Material.GLASS).requiresCorrectToolForDrops().sound(SoundType.METAL).strength(10f, 1200f)
-				.requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
-	}
-
-	@Override
-	public boolean skipRendering(BlockState state, BlockState adjacentBlockState, Direction side) {
-		return adjacentBlockState.getBlock() == this ? true : super.skipRendering(state, adjacentBlockState, side);
+		super(FabricBlockSettings.of(Material.GLASS).requiresCorrectToolForDrops().sound(SoundType.METAL).strength(10f, 1200f).lightLevel(s -> 14)
+				.requiresCorrectToolForDrops().noOcclusion().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
+				.isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

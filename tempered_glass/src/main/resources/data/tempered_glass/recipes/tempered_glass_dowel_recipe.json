@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 6,
+  "ingredient": {
+    "item": "tempered_glass:tempered_glass"
+  },
+  "result": "tempered_glass:tempered_glass_dowel"
+}
