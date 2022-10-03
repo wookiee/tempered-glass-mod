@@ -12,6 +12,7 @@
     "sources": ""
   },
   "license": "Unilicense",
+  "icon": "assets/tempered_glass/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
