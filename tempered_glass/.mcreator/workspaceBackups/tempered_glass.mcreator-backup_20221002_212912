@@ -97,14 +97,6 @@
       "registry_name": "tempered_glass_rod"
     },
     {
-      "name": "TemperedGlassRodRecipe",
-      "type": "recipe",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tempered_glass_rod_recipe"
-    },
-    {
       "name": "TemperedGlassFenceRecipe",
       "type": "recipe",
       "sortid": 15,
@@ -119,6 +111,70 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "tempered_glass_fence_gate_recipe"
+    },
+    {
+      "name": "TemperedGlassFenceRecipe2",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_fence_recipe_2"
+    },
+    {
+      "name": "TemperedGlassFenceGateRecipe2",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_fence_gate_recipe_2"
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fence_blocks"
+    },
+    {
+      "name": "FenceGateBlocks",
+      "type": "tag",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fence_gate_blocks"
+    },
+    {
+      "name": "TemperedGlassDowel",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_dowel"
+    },
+    {
+      "name": "TemperedGlassDowelRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_dowel_recipe"
+    },
+    {
+      "name": "TemperedGlassDowelRecipe2",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_dowel_recipe_2"
+    },
+    {
+      "name": "TemperedGlassRodRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_glass_rod_recipe"
     }
   ],
   "variable_elements": [],
@@ -130,6 +186,7 @@
       "block.tempered_glass.tempered_glass_pane": "Tempered Glass Pane",
       "block.tempered_glass.tempered_glass_fence": "Tempered Glass Fence",
       "block.tempered_glass.tempered_glass_fence_gate": "Tempered Glass Fence Gate",
+      "item.tempered_glass.tempered_glass_dowel": "Tempered Glass Dowel",
       "block.tempered_glass.tempered_glass_rod": "Tempered Glass Rod",
       "block.tempered_glass.tempered_glass_trapdoor": "Tempered Glass Trapdoor"
     }
