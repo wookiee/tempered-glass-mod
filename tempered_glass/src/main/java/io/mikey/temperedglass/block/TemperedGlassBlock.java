@@ -1,5 +1,5 @@
 
-package net.mcreator.temperedglass.block;
+package io.mikey.temperedglass.block;
 
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
@@ -12,8 +12,6 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.RenderType;
 
-import net.mcreator.temperedglass.init.TemperedGlassModBlocks;
-
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.api.Environment;
@@ -21,6 +19,8 @@ import net.fabricmc.api.EnvType;
 
 import java.util.List;
 import java.util.Collections;
+
+import io.mikey.temperedglass.init.TemperedGlassModBlocks;
 
 public class TemperedGlassBlock extends Block {
 	public TemperedGlassBlock() {

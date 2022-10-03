@@ -10,13 +10,13 @@
 *    will be REGENERATED on each build.
 *
 */
-package net.mcreator.temperedglass;
-
-import net.mcreator.temperedglass.init.TemperedGlassModBlocks;
+package io.mikey.temperedglass;
 
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ClientModInitializer;
+
+import io.mikey.temperedglass.init.TemperedGlassModBlocks;
 
 @Environment(EnvType.CLIENT)
 public class ClientInit implements ClientModInitializer {

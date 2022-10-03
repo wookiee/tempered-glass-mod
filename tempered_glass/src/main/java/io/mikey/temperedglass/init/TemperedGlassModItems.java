@@ -2,7 +2,7 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.temperedglass.init;
+package io.mikey.temperedglass.init;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
@@ -10,8 +10,8 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Registry;
 
-import net.mcreator.temperedglass.item.TemperedGlassDowelItem;
-import net.mcreator.temperedglass.TemperedGlassMod;
+import io.mikey.temperedglass.item.TemperedGlassDowelItem;
+import io.mikey.temperedglass.TemperedGlassMod;
 
 public class TemperedGlassModItems {
 	public static Item TEMPERED_GLASS;

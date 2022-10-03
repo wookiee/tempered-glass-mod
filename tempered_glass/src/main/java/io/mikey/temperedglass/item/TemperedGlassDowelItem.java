@@ -1,5 +1,5 @@
 
-package net.mcreator.temperedglass.item;
+package io.mikey.temperedglass.item;
 
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.Rarity;

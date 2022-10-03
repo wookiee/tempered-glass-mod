@@ -2,20 +2,20 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.temperedglass.init;
+package io.mikey.temperedglass.init;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Registry;
 
-import net.mcreator.temperedglass.block.TemperedGlassTrapdoorBlock;
-import net.mcreator.temperedglass.block.TemperedGlassSlabBlock;
-import net.mcreator.temperedglass.block.TemperedGlassRodBlock;
-import net.mcreator.temperedglass.block.TemperedGlassPaneBlock;
-import net.mcreator.temperedglass.block.TemperedGlassFenceGateBlock;
-import net.mcreator.temperedglass.block.TemperedGlassFenceBlock;
-import net.mcreator.temperedglass.block.TemperedGlassBlock;
-import net.mcreator.temperedglass.TemperedGlassMod;
+import io.mikey.temperedglass.block.TemperedGlassTrapdoorBlock;
+import io.mikey.temperedglass.block.TemperedGlassSlabBlock;
+import io.mikey.temperedglass.block.TemperedGlassRodBlock;
+import io.mikey.temperedglass.block.TemperedGlassPaneBlock;
+import io.mikey.temperedglass.block.TemperedGlassFenceGateBlock;
+import io.mikey.temperedglass.block.TemperedGlassFenceBlock;
+import io.mikey.temperedglass.block.TemperedGlassBlock;
+import io.mikey.temperedglass.TemperedGlassMod;
 
 public class TemperedGlassModBlocks {
 	public static Block TEMPERED_GLASS;

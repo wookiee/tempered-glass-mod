@@ -1,17 +1,15 @@
 
-package net.mcreator.temperedglass.block;
+package io.mikey.temperedglass.block;
 
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.FenceBlock;
+import net.minecraft.world.level.block.FenceGateBlock;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.RenderType;
-
-import net.mcreator.temperedglass.init.TemperedGlassModBlocks;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
@@ -21,8 +19,10 @@ import net.fabricmc.api.EnvType;
 import java.util.List;
 import java.util.Collections;
 
-public class TemperedGlassFenceBlock extends FenceBlock {
-	public TemperedGlassFenceBlock() {
+import io.mikey.temperedglass.init.TemperedGlassModBlocks;
+
+public class TemperedGlassFenceGateBlock extends FenceGateBlock {
+	public TemperedGlassFenceGateBlock() {
 		super(FabricBlockSettings.of(Material.GLASS).requiresCorrectToolForDrops().sound(SoundType.METAL).strength(10f, 1200f)
 				.requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
@@ -42,6 +42,6 @@ public class TemperedGlassFenceBlock extends FenceBlock {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(TemperedGlassModBlocks.TEMPERED_GLASS_FENCE, RenderType.translucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(TemperedGlassModBlocks.TEMPERED_GLASS_FENCE_GATE, RenderType.translucent());
 	}
 }

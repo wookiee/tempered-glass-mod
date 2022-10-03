@@ -1,23 +1,24 @@
 {
   "schemaVersion": 1,
   "id": "tempered_glass",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "Tempered Glass",
+  "description": "Add blocks, materials, and recipes for a glass-type block with enhanced hardness and blast resistance",
   "authors": [
     "Mikey Ward"
   ],
   "contact": {
-    "homepage": "https://mcreator.net",
+    "homepage": "https://modrinth.com/mod/tempered-glass",
     "sources": ""
   },
-  "license": "Public Domain",
+  "license": "Unilicense",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.mcreator.temperedglass.TemperedGlassMod"
+      "io.mikey.temperedglass.TemperedGlassMod"
     ],
     "client": [
-      "net.mcreator.temperedglass.ClientInit"
+      "io.mikey.temperedglass.ClientInit"
     ]
   },
   "depends": {

@@ -10,15 +10,15 @@
  *    will be REGENERATED on each build.
  *
  */
-package net.mcreator.temperedglass;
+package io.mikey.temperedglass;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import net.mcreator.temperedglass.init.TemperedGlassModItems;
-import net.mcreator.temperedglass.init.TemperedGlassModBlocks;
-
 import net.fabricmc.api.ModInitializer;
+
+import io.mikey.temperedglass.init.TemperedGlassModItems;
+import io.mikey.temperedglass.init.TemperedGlassModBlocks;
 
 public class TemperedGlassMod implements ModInitializer {
 	public static final Logger LOGGER = LogManager.getLogger();
